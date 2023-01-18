@@ -1,0 +1,743 @@
+.container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 3512px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+.header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 88px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.logo{
+    position: absolute;
+    top: 24px;
+    left: 62px;
+    width: 119px;
+    height: 40px;
+    background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.menu{
+    position: absolute;
+    top: 32px;
+    left: 786px;
+    width: 368px;
+    height: 24px;
+    opacity: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.menu .item{
+    text-align: center;
+}
+.menu .item a{
+    display: block;
+    color: #3A3A3A;
+    text-decoration:none;
+}
+.menu .item a:hover{
+    color: #F9C745;
+}
+.menu .item .select{
+    color: #F9C745;
+}
+.menu_button{
+    position: absolute;
+    top: -6px;
+    left: 418px;
+    width: 176px;
+    height: 38px;
+    background: #F9C745 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    text-align: center;
+    padding-top: 8px;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.menu_button a{
+    display: block;
+    color: #3A3A3A;
+    text-decoration:none;
+}
+.menu_button:hover{
+    position: absolute;
+    top: -6px;
+    left: 418px;
+    width: 176px;
+    height: 38px;
+    background: #F9C745 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 0px #3A3A3A;
+    border-radius: 23px;
+    opacity: 1;
+}
+.img_home{
+    position: absolute;
+    top: 88px;
+    left: 0px;
+    width: 1440px;
+    height: 810px;
+    background: transparent url('img/home.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.smallperson_talk{
+    position: absolute;
+    top: 691px;
+    left: 1226px;
+    width: 164px;
+    height: 47px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #3A3A3A;
+    opacity: 1;
+}
+.smallperson_talk .text{
+    position: absolute;
+    top: 8px;
+    left: 23px;
+    width: 120px;
+    height: 22px;
+    text-align: center;
+    font: normal normal bold 16px/22px Noto Sans;
+    letter-spacing: 1.12px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.img_smallperson{
+    position: absolute;
+    top: 746px;
+    left: 1238px;
+    width: 140px;
+    height: 152px;
+    background: transparent url('img/btn2.png') 0% 0% no-repeat padding-box;
+    border: 0px;
+    opacity: 1;
+}
+.img_smallperson:hover{
+    position: absolute;
+    top: 746px;
+    left: 1238px;
+    width: 140px;
+    height: 152px;
+    background: transparent url('img/btn.png') 0% 0% no-repeat padding-box;
+    border: 0px;
+    opacity: 1;
+}
+.home01{
+    position: absolute;
+    top: 898px;
+    left: 0px;
+    width: 1440px;
+    height: 606px;
+    opacity: 1;
+    background: transparent url('img/lightpaperfibers.png');
+}
+.img_home01{
+    position: absolute;
+    top: 80px;
+    left: 172px;
+    width: 648px;
+    height: 486px;
+    background: transparent url('img/home01.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.home01_text1{
+    position: absolute;
+    top: 178px;
+    left: 868px;
+    width: 74px;
+    height: 39px;
+    text-align: center;
+    font: normal normal bold 24px/39px Kalam;
+    letter-spacing: 0px;
+    color: #F9C745;
+    opacity: 1;
+}
+.home01_text2{
+    position: absolute;
+    top: 217px;
+    left: 868px;
+    width: 377px;
+    height: 51px;
+    text-align: left;
+    font: normal normal bold 32px/51px Kalam;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.home01_text3{
+    position: absolute;
+    top: 279px;
+    left: 868px;
+    width: 390px;
+    height: 214px;
+    text-align: left;
+    font: normal normal normal 16px/32px Noto Sans;
+    letter-spacing: 1.28px;
+    color: #3A3A3A;
+    opacity: 1
+}
+.title01{
+    position: absolute;
+    top: 1504px;
+    left: 0px;
+    width: 1440px;
+    height: 651px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: transparent url('img/lightpaperfibers.png');
+    }
+.img_title01{
+    position: absolute;
+    top: 40px;
+    left: 595px;
+    width: 250px;
+    height: 134px;
+    background: transparent url('img/title01.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.title01 .pet1{
+    position: absolute;
+    top: 214px;
+    left: 60px;
+    width: 312px;
+    height: 312px;
+    background: transparent url('img/dog05.png') 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+.title01 .pet1:hover{
+    background: 0% 0% no-repeat padding-box;
+    background-image: linear-gradient(180deg, #00000000 0%, #0000005D 100%),url('img/dog05.png');
+}
+.title01 .pet2{
+    position: absolute;
+    top: 214px;
+    left: 396px;
+    width: 312px;
+    height: 312px;
+    background: transparent url('img/dog07.png') 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+.title01 .pet2:hover{
+    background: 0% 0% no-repeat padding-box;
+    background-image: linear-gradient(180deg, #00000000 0%, #0000005D 100%),url('img/dog07.png');
+}
+.title01 .pet3{
+    position: absolute;
+    top: 214px;
+    left: 732px;
+    width: 312px;
+    height: 312px;
+    background: transparent url('img/dog06.png') 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+.title01 .pet3:hover{
+    background: 0% 0% no-repeat padding-box;
+    background-image: linear-gradient(180deg, #00000000 0%, #0000005D 100%),url('img/dog06.png');
+}
+.title01 .pet4{
+    position: absolute;
+    top: 214px;
+    left: 1068px;
+    width: 312px;
+    height: 312px;
+    background: transparent url('img/Michael.png') 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+.title01 .pet4:hover{
+    background: 0% 0% no-repeat padding-box;
+    background-image: linear-gradient(180deg, #00000000 0%, #0000005D 100%),url('img/Michael.png');
+}
+.title01 .text01{
+    position: absolute;
+    top: 576px;
+    left: 492px;
+    width: 216px;
+    height: 44px;
+    text-align: center;
+    padding-top:8px;
+    font: normal normal normal 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title01 .text02{
+    position: absolute;
+    top: 576px;
+    left: 732px;
+    width: 236px;
+    height: 44px;
+    text-align: center;
+    padding-top:8px;
+    font: normal normal normal 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    border-radius: 23px;
+    background: #F9C745 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.title01 .text01:hover{
+    background: #F9C745;
+    border: 0px solid #3A3A3A;
+}
+.title01 .text02:hover{
+    box-shadow: 0px 3px 0px #3A3A3A;
+}
+.title02{
+    position: absolute;
+    top: 2153px;
+    left: 0px;
+    width: 1440px;
+    height: 1064px;
+    opacity: 1;
+    background: transparent url('img/lightpaperfibers.png');
+}
+.img_title02{
+    position: absolute;
+    top: 42px;
+    left: 595px;
+    width: 250px;
+    height: 134px;
+    background: transparent url('img/title02.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.title02 .text1{
+    position: absolute;
+    top: 200px;
+    left: 472px;
+    width: 496px;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item1{
+    position: absolute;
+    top: 270px;
+    left: 60px;
+    width: 424px;
+    height: 621px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000014;
+    border-radius: 24px;
+    opacity: 1;
+}
+.title02 .item1 .img1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 424px;
+    height: 424px;
+    background: transparent url('img/dog01.png') 0% 0% no-repeat padding-box;
+    border-radius: 24px 24px 0px 0px;
+    opacity: 1;
+}
+.title02 .item1 .text1{
+    position: absolute;
+    top: 454px;
+    left: 24px;
+    width: 90px;
+    height: 22px;
+    text-align: left;
+    font: normal normal bold 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item1 .text2{
+    position: absolute;
+    top: 492px;
+    left: 24px;
+    width: 376px;
+    height: 46px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item1 hr{
+    position: absolute;
+    top: 564px;
+    left: 25px;
+    width: 376px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+    opacity: 1;
+}
+.title02 .item1 .text3{
+    position: absolute;
+    top: 580px;
+    left: 192px;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font: normal normal bold 16px/25px Kalam;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item1 .text3 a{
+    display: block;
+    color: #3A3A3A;
+    font: normal normal bold 16px/25px Kalam;
+    text-decoration:none;
+}
+.title02 .item1:hover{
+    box-shadow: 0px 8px 12px #00000026;
+}
+.title02 .item1:hover .img1{
+    background: transparent url('img/dog01-hover.png') 0% 0% no-repeat padding-box;
+}
+.title02 .item1:hover .text3 a{
+    color: #F9C745;
+}
+
+.title02 .item2{
+    position: absolute;
+    top: 270px;
+    left: 508px;
+    width: 424px;
+    height: 621px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000014;
+    border-radius: 24px;
+    opacity: 1;
+}
+.title02 .item2 .img1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 424px;
+    height: 424px;
+    background: transparent url('img/04.png') 0% 0% no-repeat padding-box;
+    border-radius: 24px 24px 0px 0px;
+    opacity: 1;
+}
+.title02 .item2 .text1{
+    position: absolute;
+    top: 454px;
+    left: 24px;
+    width: 90px;
+    height: 22px;
+    text-align: left;
+    font: normal normal bold 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item2 .text2{
+    position: absolute;
+    top: 492px;
+    left: 24px;
+    width: 376px;
+    height: 46px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item2 hr{
+    position: absolute;
+    top: 564px;
+    left: 25px;
+    width: 376px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+    opacity: 1;
+}
+.title02 .item2 .text3{
+    position: absolute;
+    top: 580px;
+    left: 192px;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font: normal normal bold 16px/25px Kalam;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item2 .text3 a{
+    display: block;
+    color: #3A3A3A;
+    font: normal normal bold 16px/25px Kalam;
+    text-decoration:none;
+}
+.title02 .item2:hover{
+    box-shadow: 0px 8px 12px #00000026;
+}
+.title02 .item2:hover .img1{
+    background: transparent url('img/dog04-hover.png') 0% 0% no-repeat padding-box;
+}
+.title02 .item2:hover .text3 a{
+    color: #F9C745;
+}
+.title02 .item3{
+    position: absolute;
+    top: 270px;
+    left: 956px;
+    width: 424px;
+    height: 621px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000014;
+    border-radius: 24px;
+    opacity: 1;
+}
+.title02 .item3 .img1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 424px;
+    height: 424px;
+    background: transparent url('img/08.png') 0% 0% no-repeat padding-box;
+    border-radius: 24px 24px 0px 0px;
+    opacity: 1;
+}
+.title02 .item3 .text1{
+    position: absolute;
+    top: 454px;
+    left: 24px;
+    width: 100px;
+    height: 22px;
+    text-align: left;
+    font: normal normal bold 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item3 .text2{
+    position: absolute;
+    top: 492px;
+    left: 24px;
+    width: 376px;
+    height: 46px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item3 hr{
+    position: absolute;
+    top: 564px;
+    left: 25px;
+    width: 376px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+    opacity: 1;
+}
+.title02 .item3 .text3{
+    position: absolute;
+    top: 580px;
+    left: 192px;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font: normal normal bold 16px/25px Kalam;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.title02 .item3 .text3 a{
+    display: block;
+    color: #3A3A3A;
+    font: normal normal bold 16px/25px Kalam;
+    text-decoration:none;
+}
+.title02 .item3:hover{
+    box-shadow: 0px 8px 12px #00000026;
+}
+.title02 .item3:hover .img1{
+    background: transparent url('img/dog08-hover.png') 0% 0% no-repeat padding-box;
+}
+.title02 .item3:hover .text3 a{
+    color: #F9C745;
+}
+.title02 .button1{
+    position: absolute;
+    top: 941px;
+    left: 612px;
+    width: 216px;
+    height: 44px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    padding-top: 8px;
+}
+.title02 .button1 a{
+    display: block;
+    color: #3A3A3A;
+    text-decoration:none;
+}
+.title02 .button1:hover{
+    background: #F9C745;
+    border: 0px solid #3A3A3A;
+}
+
+.footer{
+    position: absolute;
+    top: 3217px;
+    left: 0px;
+    width: 1440px;
+    height: 223px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-top: 3px solid #F9C745;
+    opacity: 1;
+}
+.footer .img1{
+    position: absolute;
+    top: 48px;
+    left: 232px;
+    width: 200px;
+    height: 127px;
+    background: transparent url('img/link01.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.footer .text1{
+    position: absolute;
+    top: 55px;
+    left: 456px;
+    width: 144px;
+    height: 33px;
+    text-align: left;
+    font: normal normal normal 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.footer .text2{
+    position: absolute;
+    top: 93px;
+    left: 456px;
+    width: 240px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.footer .button1{
+    position: absolute;
+    padding-top: 8px;
+    top: 129px;
+    left: 456px;
+    width: 176px;
+    height: 44px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+    text-align: center;
+    font: normal normal normal 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    padding: auto;
+    opacity: 1;
+}
+.footer .img2{
+    position: absolute;
+    top: 59px;
+    left: 744px;
+    width: 200px;
+    height: 105px;
+    background: transparent url('img/link02.png') 0% 0% no-repeat padding-box;
+    border-radius: 53px;
+    opacity: 1;
+}
+.footer .text3{
+    position: absolute;
+    top: 55px;
+    left: 968px;
+    width: 144px;
+    height: 33px;
+    text-align: left;
+    font: normal normal normal 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.footer .text4{
+    position: absolute;
+    top: 93px;
+    left: 968px;
+    width: 240px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.footer .button2{
+    position: absolute;
+    top: 129px;
+    left: 968px;
+    width: 176px;
+    height: 44px;
+    padding-top: 8px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+    text-align: center;
+    font: normal normal normal 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    padding: auto;
+    opacity: 1;
+}
+.footer .button1:hover ,.footer .button2:hover{
+    background: #F9C745;
+    border: 0px solid #3A3A3A;
+}
+.footer .copyright{
+    position: absolute;
+    top: 225px;
+    left: -2px;
+    width: 1444px;
+    height: 70px;
+    background: #3A3A3A 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.footer .copyright .text{
+    position: absolute;
+    top: 24px;
+    left: 556px;
+    width: 328px;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
